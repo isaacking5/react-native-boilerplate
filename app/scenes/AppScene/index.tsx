@@ -27,15 +27,17 @@ import {
 import Counter from '../../components/Counter';
 
 import EnvironmentConstants from '../../constants/EnvironmentConstants';
-import {goToLaunchScene} from '../../utils/NavigationUtils';
+import {goToSignUpScene} from '../../utils/NavigationUtils';
 import Images from '../../images';
 import I18n from '../../i18n/i18n';
 
 var global: any;
 const AppScene = () => {
   const goToLaunchScreen = () => {
-    goToLaunchScene();
+    //TODO:change goToSignUpScene to (goToLaunchScene-import this)
+    goToSignUpScene();
   };
+
   return (
     <Fragment>
       <StatusBar barStyle="dark-content" />
